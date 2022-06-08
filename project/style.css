@@ -1,0 +1,225 @@
+header ul li {
+    float: left;
+    background-color: rgb(110, 110, 110);
+    display: inline;
+    padding: 10px ;
+
+}
+header ul li a{
+    display: block;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+
+}
+/* Блок с шапкой */
+header{
+    display: flex;
+    justify-content: space-around;
+    flex-flow: wrap;
+    flex-direction: row;
+    width: 100%;
+    margin: auto;
+    background-color: #6e6e6e;
+}
+body {
+    background-color: lightslategray;
+    padding: 0;
+    margin: 0;
+}
+
+input {
+padding-top: 23.5px;
+padding-bottom: 23px;
+padding-right: 0px;
+height: 2px;
+border-radius: 5%;
+}
+button {
+    position: absolute;
+    height: 53px;
+    width: 100px;
+    margin-left: -20px;
+    border-radius: 5%;
+    background-color: lightslategray;
+    color: white;
+}
+#p {
+    position: absolute;
+    height: 53px;
+    width: 60px;
+    margin-left: -20px;
+    border-radius: 5%;
+    background-color: lightslategray;
+    color: white;}
+
+.q{
+
+    color: rgb(110, 110, 110); 
+}
+#c1 {
+    animation-delay: 0s;
+}
+.circle {
+    color: white;
+    margin-left: 5%;
+    margin-right: 4%;
+    font-size: 25px;
+    display: flex;
+    float: left;
+    background: rgb(131, 131, 131);
+    border-radius: 100%;
+    width: 210px;
+    height: 210px;
+    animation: pulsing 3s infinite;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 5%;
+    margin-top: 20px;
+    border: 1px;
+    border-style: solid;
+   }
+   @keyframes pulsing {
+    0% {
+    transform: scale(0.5, 0.5)
+    }
+    50% {
+    transform: scale(1, 1);
+    }
+    100% {
+    transform: scale(0.5, 0.5);
+    }
+   }
+   #c2 {
+       animation-delay: 200ms;
+   }
+   #c3 {
+       animation-delay: 400ms;
+   }
+   #c4 {
+       animation-delay: 600ms;
+   }
+   h1 {
+       color: white;
+       text-align: center;
+   }
+   #anim {
+       margin: 0% 0% 5% 0%;
+       padding-bottom: 10%;
+   }
+   #info {
+       background-color: rgb(110, 110, 110);
+        margin-top: 10%;
+        text-align: center;
+        align-items: center;
+        padding-bottom: 100px;
+    }
+   #mission {
+       float: left;
+       height: 100px;
+       background-color: rgb(131, 131, 131);
+       margin: 0% 10% 0 10%;
+       font-size: 20px;
+       color: white;
+       width: 400px;
+       align-items: center;
+       border: 1px;
+       border-style: solid;
+   }
+   #block_otziv {
+       margin-top: 5%;
+   }
+   #deviz {
+    float: left;
+    height: 100px;
+    background-color: rgb(131, 131, 131);
+    margin: 0% 10% 0 10%;
+    font-size: 20px;
+    color: white;
+    width: 400px;
+    align-items: center;
+    border: 1px;
+    border-style: solid;
+   }
+   .otziv {
+       background-color: rgb(131, 131, 131);
+       font-size: 20px;
+       color: white;
+       height: 50px;
+       margin: 0 15% 0 15%;
+       border: 1px;
+       border-style: solid;
+       text-align: left;
+   }
+   .imagc {
+       width: 200px;
+       height: 200px;
+       border-radius: 100%;
+       border: 1px;
+       border-style: solid;
+       justify-content: space-around;
+       margin-left: 50px;
+   }
+ h2{
+     text-align: center;
+     color: white;
+ }
+ .akcii {
+     float: left;
+     margin-left: 13%;
+     margin-right: 12%;
+     color: white;
+     width: 300px;
+     text-align: justify;
+     background-color: rgb(131, 131, 131);
+     padding: 15px;
+     border: 1px;
+     border-style: solid;
+ }
+    .parag {
+     text-align: center;
+ }
+    #w{
+     margin-top: 400px;
+ }
+    #emailform{
+        margin-left: 40%;    }
+    .footinfo {
+        font-size: 20px;
+        color: white;
+    }
+    footer{
+        background-color: rgb(131, 131, 131);
+        padding: 1px 0 20px 0;
+        margin-top: 40px;
+    }
+    #wow {
+        text-align: center;
+    }
+    #emailform2 {
+        margin-left: -5%;                
+    }
+    #orderform { 
+        text-align: center; 
+        font-size: 18px; 
+        color: white; 
+    } 
+    #orderdiv { 
+        background-color: rgb(131, 131, 131); 
+        padding: 50px; 
+        margin: 4% 30% 5% 30%; 
+    } 
+    #bodyorder { 
+        background-color: lightslategray; 
+    } 
+    #oform {
+        margin-left: -50px;
+        height: 40px; 
+        width: 100px; 
+    }
+    #shapimg {
+        width: 75px;
+        height: 50px;
+    }
